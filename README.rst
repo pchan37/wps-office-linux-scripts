@@ -62,16 +62,18 @@ To uninstall WPS Office on Linux entirely, navigate to the root of this repo and
 
 .. code-block:: bash
 
-   ./uninstall_wps_office_linux.sh
+   $ ./uninstall_wps_office_linux.sh
 
 To remove the downloaded templates, navigate to the root of this repo and run:
 
 .. code-block:: bash
 
-   ./remove_templates.sh
+   $ ./remove_templates.sh
 
 Usage
 -----
+To open an application, search up WPS in your application launcher and select the one that you wish
+to open.  Alternatively, you can pin it to the dock for easier access (if you have not already done so).
 
 Verison History
 ---------------
