@@ -12,7 +12,7 @@ those templates.
 
 Installation
 ------------
-To install WPS Office on Linux:
+**To install WPS Office on Linux:**
 
 1) Open a terminal
 2) Navigate to a directory where you wish to clone the repository
@@ -37,7 +37,7 @@ To install WPS Office on Linux:
    Note: During the installation, if you are on Elementary OS or have plank installed, the script
    would prompt you if you want to create launchers on the dock (icon to launch the app).
 
-Optional)
+**Optional)**
 
 1) If you installed WPS Office on Linux and you later realize you want to dock all three
    applications to the plank (Elementary OS dock), run:
@@ -80,11 +80,9 @@ Version 0.2
 ^^^^^^^^^^^
 - Features full support for downloading templates from online for Writer, Presentations,
   Spreadsheets
-  - Offers the option of downloading specific template categories (Missing clean interface for
-    users)
+  - Offers the option of downloading specific template categories (Missing clean interface for users)
 - Wrote a script for removing templates
-  - Offers the option of removing specific template categories (Missing clean interface for
-    users)
+  - Offers the option of removing specific template categories (Missing clean interface for users)
 - Updated uninstallation script to remove all remanents
 
 Version 0.1.2
