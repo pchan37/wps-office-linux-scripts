@@ -12,7 +12,40 @@ those templates.
 
 Installation
 ------------
-**To install WPS Office on Linux:**
+
+Installing Dependencies (Do so slightly later)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Dependencies: Pip, bs4 (via pip), and virtualenv (via pip, optional)**
+
+To install Pip, follow the instructions `here
+<https://dojo.stuycs.org/resources/software_installation_and_tips/installation_instructions/programming_languages/installing_python.html#installation-programming-languages-python-pip-linux>`_.
+
+It is recommended to install virtualenv (to isolate the installation of extra packages from your
+system packages and avoid cluttering):
+
+.. code-block:: bash
+
+   $ sudo pip install virtualenv
+
+Lastly, you would need bs4 (BeautifulSoup4)...
+
+Installation via virtualenv:
+
+.. code-block:: bash
+
+   $ virtualenv wps_office_linux
+   $ source wps_office_linux/bin/activate
+   $ pip install -r requirements.txt
+
+Installation via system pip:
+
+.. code-block:: bash
+
+   $ sudo pip install -r requirements.txt
+
+Installing WPS Office on Linux
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1) Open a terminal
 2) Navigate to a directory where you wish to clone the repository
@@ -28,7 +61,8 @@ Installation
 
       $ cd wps-office-linux-scripts
 
-5) Run the installation script
+5) Install the required dependencies, following the instructions above
+6) Run the installation script
 
    .. code-block:: bash
 
@@ -74,6 +108,16 @@ Usage
 -----
 To open an application, search up WPS in your application launcher and select the one that you wish
 to open.  Alternatively, you can pin it to the dock for easier access (if you have not already done so).
+
+Instructions for creating new files and opening templates can be found `here
+<http://help.wps.com/articles/how-to-create-a-new-document>`_.
+
+.. class:: no-web
+
+   .. image:: https://raw.githubusercontent.com/pchan37/master/other_template_menu.png
+      :alt: Other Template Menu
+      :width: 100%
+      :align: center
 
 Verison History
 ---------------
