@@ -14,4 +14,6 @@ if command -v plank; then
     rm -rf ~/.config/wps-pchan-plank
 fi
 
+sudo rm -rf /opt/kingsoft
+
 echo 'Successfully removed WPS Office!'
